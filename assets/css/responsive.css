@@ -239,7 +239,15 @@
         flex-direction: column;
         text-align: center;
     }
-
+.product-details__thumb-img {
+    position: relative;
+    display: block;
+    width: 100px !important;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid rgba(var(--farmology-black-rgb), .10);
+}
     .feature-one__single:before {
         top: 10px;
         left: 10px;
@@ -1597,7 +1605,7 @@
     }
 
     .site-footer__top-inner {
-        padding: 71px 0 80px;
+        padding: 50px 0 30px;
     }
 
     .site-footer__bottom-inner {
@@ -2031,7 +2039,7 @@
     }
 
     .our-story__inner {
-        padding: 80px 10px 70px;
+        padding: 10px 10px 70px;
     }
 
     .our-story__points-box {
@@ -2045,7 +2053,7 @@
     }
 
     .shop-now {
-        padding: 80px 0 80px;
+        padding: 80px 0 20px;
     }
 
     .team-two {
@@ -2274,7 +2282,7 @@
     }
 
     .page-header__inner {
-        padding: 196px 0 95px;
+        padding: 50px 0 40px;
     }
 
     .blog-details__user-and-meta {
@@ -2689,7 +2697,7 @@
 
 
     .product {
-        padding: 70px 0 80px;
+        padding: 2px 0 80px;
     }
 
     .product__sidebar {

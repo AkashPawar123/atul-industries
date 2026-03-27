@@ -44,7 +44,27 @@
     });
   }
 
+document.addEventListener("DOMContentLoaded", function() {
+    const tabButtons = document.querySelectorAll('.tab-btn');
+    const tabs = document.querySelectorAll('.tab');
 
+    tabButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            // १. सर्व बटणांमधून 'active-btn' क्लास काढा
+            tabButtons.forEach(btn => btn.classList.remove('active-btn'));
+            
+            // २. सर्व टॅब लपवा (active-tab क्लास काढा)
+            tabs.forEach(tab => tab.classList.remove('active-tab'));
+
+            // ३. क्लिक केलेल्या बटणाला 'active-btn' क्लास द्या
+            this.classList.add('active-btn');
+
+            // ४. संबंधित टॅब दाखवा
+            const targetTab = this.getAttribute('data-tab');
+            document.querySelector(targetTab).classList.add('active-tab');
+        });
+    });
+});
 
   // Main Slider One
   if ($(".main-slider__carousel").length > 0) {
