@@ -2039,7 +2039,7 @@
     }
 
     .our-story__inner {
-        padding: 10px 10px 70px;
+        padding: 10px 10px 0px;
     }
 
     .our-story__points-box {
@@ -2140,7 +2140,7 @@
     }
 
     .offer-one__single {
-        padding: 55px 15px 55px;
+        padding: 30px;
     }
 
     .offer-one__title {

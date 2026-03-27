@@ -23108,7 +23108,7 @@ Product Description
 /* Custom Footer Styling */
 .custom-footer {
     background-color: #f9f8ef; /* Light beige/cream */
-    padding-top: 60px;
+    padding-top: 20px;
     font-family: 'Poppins', sans-serif;
     color: #333;
 }
@@ -23524,7 +23524,7 @@ Product Description
     border-radius: 44px;
     font-size: 14px;
     font-weight: 600;
-    text-transform: uppercase;
+   
     background: #F58634; /* Light grey default */
     color: #ffffff;
     text-decoration: none;
@@ -24410,8 +24410,11 @@ input[type="radio"] {
         display: flex;
     }
 
-  
-    
+.thm-btn {
+   
+    padding: 7px 14px  !important;
+    font-size: 16px;
+}
     .product__showing-sort {
         width: 100%;
         margin-left: 0;
@@ -24433,19 +24436,36 @@ input[type="radio"] {
 }
 .shop-now__single .thm-btn {
    
-    padding: 10px 15px !important ;
+    padding:7px 12px !important ;
 }
 .shop-now__content {
     padding: 15px 0px 10px;
   
 }
 .shop-now__content-left h3 {
-    font-size: 18px;
+    font-size: 16px;
   
 }
 .shop-now__single {
  
     padding: 9px;
    
+}
+.video-two__title {
+    font-size: 25px;
+    line-height: 35px;
+}
+body {
+    font-size: 16px;
+}
+.shop-category ul li a {
+    
+    font-size: 16px;
+
+}
+.pbutton {
+ 
+    padding: 7px 17px;
+  
 }
 }
